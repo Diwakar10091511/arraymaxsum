@@ -6,3 +6,4 @@ hi guys,
  the first one gives the maximum sum possible from array elements.
  the other one simply tells the order is zigzag or not.
  if you can optimize the code , You are welcome.
+ Thank you.
