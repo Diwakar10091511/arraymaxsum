@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main()
 {
@@ -15,18 +15,7 @@ int main()
 	}
 
 	// process of sorting starting from here.
-	for(int i=n-1;i>0;i--)
-	{
-		for(int j=0;j<i;j++)
-		{
-			if(a[j]>a[j+1])
-			{
-				a[j] = a[j] + a[j+1];
-				a[j+1] = a[j] - a[j+1];
-				a[j] = a[j] - a[j+1];				
-			}
-		}
-	}
+	sort(a,a+n);
 
 	// sorted array is getting printed
 	for(int i=0;i<n;i++)
