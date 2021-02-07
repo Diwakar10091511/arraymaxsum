@@ -21,11 +21,9 @@ int main()
 		{
 			if(a[j]>a[j+1])
 			{
-			s=a[j];
-			a[j]=a[j+1];
-			a[j+1]=s;
-			//change
-				
+				a[j] = a[j] + a[j+1];
+				a[j+1] = a[j] - a[j+1];
+				a[j] = a[j] - a[j+1];				
 			}
 		}
 	}
