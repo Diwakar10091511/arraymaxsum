@@ -24,6 +24,7 @@ int main()
 			s=a[j];
 			a[j]=a[j+1];
 			a[j+1]=s;
+			//change
 				
 			}
 		}
